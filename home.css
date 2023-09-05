@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+background-color: rgb(220, 232, 233);
+    background-size: cover;
+    font-family:Helvetica;
+}
+.head{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    
+    padding: 4px;
+    background-color: rgba(143, 138, 138, 0.8)
+}
+.main{
+    flex:0 1 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.both{
+    display: flex;
+ flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.student{
+    height: 450px;
+    width:400px;
+  text-align: center;
+  font-size: 1.7em;
+  position: relative;
+  background-color: #f7f7f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+   margin:50px 50px;
+}
+.teacher{
+    height: 450px;
+    text-align: center;
+    font-size: 1.7em;
+    width:400px;
+    position: relative;
+    background-color: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    margin:50px 50px;
+}
+.login{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3) ;
+    font-size: 1em;
+    padding: 5px;
+}
+.logo{
+    text-align: center;
+    background-color: rgba(94, 92, 84, 0.5);
+    padding: 0.5em;
+    
+    
+}
+button{
+    font-size: 20px;
+    margin: 25px;
+    height: 30px;
+    width: 200px;
+    background-color:rgba(243, 161, 78,0.5);
+    border-radius: 10px;
+    border:none;
+}
+input{
+   border: 1px solid grey;
+    background-color:white;
+    height: 20px;
+}
+.image{
+    margin-left: 10px;
+}
+.login_details{
+    margin-top:50px;
+    padding: 15px;
+    
+    font-size: 0.9em;
+}
+.login_details div{
+    margin:10 0;
+}
+span{
+    color:red;
+}
+img:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+}
+.logos li{
+    display: inline;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+.logos{
+    text-align: center;
+}
